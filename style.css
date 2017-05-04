@@ -1,0 +1,309 @@
+/*
+Theme Name:M/A
+Theme URI: http://munenaga.wp.xdomain.jp/
+Description:M/A
+Author: MunenagaAkinari
+Author URI: http://munenaga.wp.xdomain.jp/
+Version: 0.3
+*/
+
+@charset "utf-8";
+
+
+/* Copyright (c) 2010, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License: http://developer.yahoo.com/yui/license.html version: 3.2.0 build: 2676 */
+/*add japanese 2010/12 araki */
+/*body{font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}
+*/
+
+body,div,dl,dt,dd,
+ul,ol,li,h1,h2,h3,h4,h5,h6,
+pre,code,form,fieldset,legend,
+input,textarea,p,blockquote,th,td {
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-size: 13px;
+	font-family: Arial, sans-serif;
+	line-height: 1.4em;
+	background-color: #fff;	}
+
+*html body {
+	font-size:small;
+	}/*ie6 ie7用*/
+
+*html body {
+	font:x-small/1.5em;
+	}/*ie6後方互換モード*/
+
+address,em,strong,th {
+	font-style: normal;
+	font-weight: normal;
+}
+
+select,input,button,textarea{
+	font:99% "ＭＳ Ｐゴシック", "MS PGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic
+Pro", sans-serif;
+}
+
+pre,code,kbd,samp,tt{
+	font-family:monospace;line-height:100%;
+	}
+
+*pre,*code,*kbd,*samp,*tt{
+	font-size:108%;
+	}
+
+table,table th,table td, {
+	border:none ;
+	border-collapse: collapse;
+}
+
+img {
+	border:0;
+}
+
+ul,ol,li {
+	list-style:none;
+}
+
+/*--------------------------------------------------
+* ピクセル　％
+----------------------------------------------------
+10 77
+11 85
+12 93
+13 100
+14 108
+15 116
+16 123.1
+17 131
+18 138.5
+19 146.5
+20 153.9
+21 161.6
+22 167
+23 174
+24 182
+25 189
+26 197
+*/
+
+/*YUI END*/
+
+
+/* HTML5 */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+/*common*/
+h1,h2 {
+	font-weight: normal;
+}
+
+a {
+	color: #888;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #006EB6;
+}
+
+/*Rayout*/
+#container {
+	width: 960px;
+	margin: 10px auto;
+}
+
+#side_bar {
+	width: 260px;
+	float: right;
+}
+
+#main_cont {
+	width: 700px;
+	float: left;
+	margin-bottom: 15px;
+}
+
+/*header*/
+header {
+	width: 100% ;
+	background-image: url("images/bg.png");
+	background-repeat: repeat-x;
+	margin-top: 10px;
+}
+
+header h1 {
+	width: 960px;
+	margin: 0 auto ;
+	text-align: right;
+}
+
+img.top_banner {
+	width: 270px ;
+	height; 100px ;
+}
+
+/*Sidebar Styles*/
+nav {
+	margin: 20px 25px 25px;
+}
+
+nav ul li {
+	font-size: 123.1%;
+	font-family: arial, sans-serif;
+	margin: 0.75em 0;
+}
+
+#side_bar p {
+	font-size: 100%;
+	line-height: 2em;
+	margin: 20px 0 10px 10px ;
+	padding: 15px 15px;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+}
+
+#share_btn {
+	margin-left : 10px;
+}
+
+#share_btn li {
+	display: inline-block;
+	margin : 10px 0 10px 15px;
+	vertical-align: top;
+}
+
+/*Main Contets Styles*/
+ul#thumnalles {
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+ul#thumnalles li{
+	margin-bottom: 15px;
+}
+
+#container img {
+	margin-bottom: 5px;
+	padding: 5px;
+	border: 1px solid #999;
+	max-width : 100%;
+	height : auto;
+}
+
+#container img.alignleft {
+	float: left;
+	margin-right: 1.2em;
+}
+
+#container img.alignright {
+	float: right;
+	margin-left: 1.2em;
+}
+
+article {
+	width: 672px ;
+	margin: 20px 0 10px ;
+}
+
+article h1 {
+	border-left: 5px solid #999;
+	padding: 0.3em 0 0.2em 0.4em;
+	margin-bottom: 0.2em;
+}
+
+article h2 {
+	border-bottom: 1px solid #999999;
+	margin: 1.25em 0 0.5em;
+	padding: 0.3em;
+	width: 20em;
+}
+
+article h3 {
+	margin: 1.25em 0 0.5em;
+	padding: 0.3em;
+	width: 20em;
+}
+
+article p {
+	letter-spacing:1px;
+	line-height:160%;
+	margin-bottom:1em;
+}
+
+article footer {
+	border: none;
+	margin: 0.5em 0;
+}
+
+article dt {
+	margin-top:0.7em;
+}
+
+article dd,li {
+	margin-left:1em;
+}
+
+time {
+	color: #666 ;
+}
+
+#sub_nav {
+	margin : 2em 0 1em ;
+}
+
+/*Footer*/
+footer {
+	width: 100%;
+	clear: both;
+	border-top:2px solid #006EB6;
+}
+	
+footer p {
+	margin: 10px auto;
+}
+
+/*For Mobile Display*/
+@media (max-width: 768px) {
+
+	#container {
+		width: 90%;
+		margin: 10px auto;
+	}
+
+	header,
+	header h1,
+	#side_bar,
+	#main_cont,
+	article {
+		width: 100%;
+		float: none;
+	}
+
+	.top_banner {
+		margin-right : 1em ;
+	}
+
+	#sub_nav {
+		text-align: right;
+	}
+
+	nav,#side_bar p {
+		margin: initial;
+	}
+
+	#side_bar p {
+		padding: initial;
+		border: none;
+	}
+	
+	footer p {
+		width: 90%;
+	}	
+}
